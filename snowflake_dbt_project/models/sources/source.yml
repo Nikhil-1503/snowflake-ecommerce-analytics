@@ -1,0 +1,15 @@
+sources:
+  - name: staging
+    database: retail_db  
+    schema: staging  
+    tables:
+      - name: CUSTOMERS_RAW
+      - name: ORDERS_RAW
+      - name: ORDER_ITEMS_RAW
+      - name: ORDER_PAYMENTS_RAW
+      - name: ORDER_REVIEWS_RAW
+      - name: PRODUCTS_RAW
+      - name: SELLERS_RAW
+      - name: GEOLOCATION_RAW
+      - name: CATEGORY_TRANSLATION_RAW
+

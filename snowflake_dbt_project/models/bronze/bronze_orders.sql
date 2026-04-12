@@ -1,0 +1,1 @@
+SELECT *, current_timestamp as insert_dt FROM {{ source('staging', 'ORDERS_RAW') }}

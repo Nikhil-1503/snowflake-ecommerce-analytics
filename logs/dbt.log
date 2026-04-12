@@ -1,0 +1,242 @@
+[0m16:48:43.925815 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280736EF710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280736ECD50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280736ECB50>]}
+
+
+============================== 16:48:43.984199 | ea707fa4-bbdf-4f7b-b9cb-93450e68e5e8 ==============================
+[0m16:48:43.984199 [info ] [MainThread]: Running with dbt=1.11.8
+[0m16:48:43.989627 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\nikhi\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt init', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m16:48:44.114446 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\nikhi\.dbt
+[0m16:50:00.493318 [debug] [MainThread]: Starter project path: C:\Apprender\project\snowflake-ecommerce-analytics\.venv\Lib\site-packages\dbt\include\starter_project
+[0m16:50:00.551550 [info ] [MainThread]: 
+Your new dbt project "snowflake_dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:50:00.553061 [info ] [MainThread]: Setting up your profile.
+[0m16:50:13.167506 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m16:50:13.168825 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m16:50:13.168825 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m16:59:14.565642 [info ] [MainThread]: Profile snowflake_dbt_project written to C:\Users\nikhi\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:59:14.593612 [debug] [MainThread]: Command `dbt init` succeeded at 16:59:14.593612 after 630.77 seconds
+[0m16:59:14.597716 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002807367F550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280736E1E90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280736F3E50>]}
+[0m16:59:14.597716 [debug] [MainThread]: Flushing usage events
+[0m16:59:15.955428 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:53:57.877083 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211C3238F50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211C3232050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211C32999D0>]}
+
+
+============================== 09:53:57.877083 | aa725cff-87e9-42a1-aa93-e711cb690c95 ==============================
+[0m09:53:57.877083 [info ] [MainThread]: Running with dbt=1.11.8
+[0m09:53:57.887518 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\nikhi\\.dbt', 'invocation_command': 'dbt init --profile snowflake_dbt_project', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m09:54:10.730813 [info ] [MainThread]: A project called snowflake_dbt_project already exists here.
+[0m09:54:10.730813 [debug] [MainThread]: Command `dbt init` succeeded at 09:54:10.730813 after 12.99 seconds
+[0m09:54:10.730813 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211C323B710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211C32385D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211BB468490>]}
+[0m09:54:10.730813 [debug] [MainThread]: Flushing usage events
+[0m09:54:11.808134 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:54:48.518827 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E89FAFB810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E89B9656D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E89FAFA550>]}
+
+
+============================== 09:54:48.526436 | b8192e06-c7cd-40f5-beb3-316a363b8eac ==============================
+[0m09:54:48.526436 [info ] [MainThread]: Running with dbt=1.11.8
+[0m09:54:48.526436 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\nikhi\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt debug --connection', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m09:54:48.594340 [info ] [MainThread]: dbt version: 1.11.8
+[0m09:54:48.595345 [info ] [MainThread]: python version: 3.11.14
+[0m09:54:48.596338 [info ] [MainThread]: python path: C:\Apprender\project\snowflake-ecommerce-analytics\.venv\Scripts\python.exe
+[0m09:54:48.598341 [info ] [MainThread]: os info: Windows-10-10.0.26200-SP0
+[0m09:54:50.902988 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m09:54:50.902988 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m09:54:50.902988 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m09:54:51.002569 [info ] [MainThread]: Using profiles dir at C:\Users\nikhi\.dbt
+[0m09:54:51.005544 [info ] [MainThread]: Using profiles.yml file at C:\Users\nikhi\.dbt\profiles.yml
+[0m09:54:51.005544 [info ] [MainThread]: Using dbt_project.yml file at C:\Apprender\project\snowflake-ecommerce-analytics\dbt_project.yml
+[0m09:54:51.021442 [info ] [MainThread]: adapter type: snowflake
+[0m09:54:51.023798 [info ] [MainThread]: adapter version: 1.11.4
+[0m09:54:51.024801 [info ] [MainThread]: Skipping steps before connection verification
+[0m09:54:51.027642 [info ] [MainThread]: Connection:
+[0m09:54:51.029741 [info ] [MainThread]:   account: BBBLQXE-MAB47127
+[0m09:54:51.030744 [info ] [MainThread]:   user: NIKHIL01
+[0m09:54:51.032747 [info ] [MainThread]:   database: RETAIL_DB
+[0m09:54:51.033742 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m09:54:51.036442 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m09:54:51.036442 [info ] [MainThread]:   schema: DBT_SCHEMA
+[0m09:54:51.039388 [info ] [MainThread]:   authenticator: None
+[0m09:54:51.043697 [info ] [MainThread]:   oauth_client_id: None
+[0m09:54:51.045692 [info ] [MainThread]:   query_tag: None
+[0m09:54:51.046710 [info ] [MainThread]:   client_session_keep_alive: False
+[0m09:54:51.046710 [info ] [MainThread]:   host: None
+[0m09:54:51.046710 [info ] [MainThread]:   port: None
+[0m09:54:51.053501 [info ] [MainThread]:   proxy_host: None
+[0m09:54:51.055521 [info ] [MainThread]:   proxy_port: None
+[0m09:54:51.057064 [info ] [MainThread]:   protocol: None
+[0m09:54:51.057064 [info ] [MainThread]:   connect_retries: 1
+[0m09:54:51.060740 [info ] [MainThread]:   connect_timeout: None
+[0m09:54:51.062602 [info ] [MainThread]:   retry_on_database_errors: False
+[0m09:54:51.063599 [info ] [MainThread]:   retry_all: False
+[0m09:54:51.065599 [info ] [MainThread]:   insecure_mode: False
+[0m09:54:51.067605 [info ] [MainThread]:   reuse_connections: True
+[0m09:54:51.068965 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m09:54:51.071748 [info ] [MainThread]:   platform_detection_timeout_seconds: 0.0
+[0m09:54:51.071748 [info ] [MainThread]: Registered adapter: snowflake=1.11.4
+[0m09:54:51.886393 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m09:54:55.551782 [debug] [MainThread]: Using snowflake connection "debug"
+[0m09:54:55.551782 [debug] [MainThread]: On debug: select 1 as id
+[0m09:54:55.552781 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m09:54:58.634288 [debug] [MainThread]: SQL status: SUCCESS 1 in 3.082 seconds
+[0m09:54:58.635818 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m09:54:58.637845 [info ] [MainThread]: [31m1 check failed:[0m
+[0m09:54:58.639978 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Apprender\project\snowflake-ecommerce-analytics\dbt_project.yml> not found
+
+[0m09:54:58.639978 [debug] [MainThread]: Command `dbt debug` failed at 09:54:58.639978 after 10.24 seconds
+[0m09:54:58.639978 [debug] [MainThread]: Connection 'debug' was left open.
+[0m09:54:58.639978 [debug] [MainThread]: On debug: Close
+[0m09:54:59.187265 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E89FB26350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E897C582D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8A140FF10>]}
+[0m09:54:59.188275 [debug] [MainThread]: Flushing usage events
+[0m09:55:00.313428 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:55:14.386750 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AAFF4C0350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AAFF235710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AAFBBEA110>]}
+
+
+============================== 09:55:14.392605 | c2394ada-3f5b-45a8-bf2d-dadc66dea81b ==============================
+[0m09:55:14.392605 [info ] [MainThread]: Running with dbt=1.11.8
+[0m09:55:14.393617 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\nikhi\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug --connection', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m09:55:14.430958 [info ] [MainThread]: dbt version: 1.11.8
+[0m09:55:14.430958 [info ] [MainThread]: python version: 3.11.14
+[0m09:55:14.430958 [info ] [MainThread]: python path: C:\Apprender\project\snowflake-ecommerce-analytics\.venv\Scripts\python.exe
+[0m09:55:14.434226 [info ] [MainThread]: os info: Windows-10-10.0.26200-SP0
+[0m09:55:15.050973 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m09:55:15.050973 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m09:55:15.050973 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m09:55:15.129430 [info ] [MainThread]: Using profiles dir at C:\Users\nikhi\.dbt
+[0m09:55:15.130686 [info ] [MainThread]: Using profiles.yml file at C:\Users\nikhi\.dbt\profiles.yml
+[0m09:55:15.131682 [info ] [MainThread]: Using dbt_project.yml file at C:\Apprender\project\snowflake-ecommerce-analytics\dbt_project.yml
+[0m09:55:15.133972 [info ] [MainThread]: adapter type: snowflake
+[0m09:55:15.135044 [info ] [MainThread]: adapter version: 1.11.4
+[0m09:55:15.136213 [info ] [MainThread]: Skipping steps before connection verification
+[0m09:55:15.137537 [info ] [MainThread]: Connection:
+[0m09:55:15.138688 [info ] [MainThread]:   account: BBBLQXE-MAB47127
+[0m09:55:15.139687 [info ] [MainThread]:   user: NIKHIL01
+[0m09:55:15.140199 [info ] [MainThread]:   database: RETAIL_DB
+[0m09:55:15.141210 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m09:55:15.142209 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m09:55:15.143210 [info ] [MainThread]:   schema: DBT_SCHEMA
+[0m09:55:15.144216 [info ] [MainThread]:   authenticator: None
+[0m09:55:15.144216 [info ] [MainThread]:   oauth_client_id: None
+[0m09:55:15.145448 [info ] [MainThread]:   query_tag: None
+[0m09:55:15.145448 [info ] [MainThread]:   client_session_keep_alive: False
+[0m09:55:15.146444 [info ] [MainThread]:   host: None
+[0m09:55:15.146444 [info ] [MainThread]:   port: None
+[0m09:55:15.147441 [info ] [MainThread]:   proxy_host: None
+[0m09:55:15.148449 [info ] [MainThread]:   proxy_port: None
+[0m09:55:15.149449 [info ] [MainThread]:   protocol: None
+[0m09:55:15.150452 [info ] [MainThread]:   connect_retries: 1
+[0m09:55:15.152177 [info ] [MainThread]:   connect_timeout: None
+[0m09:55:15.153194 [info ] [MainThread]:   retry_on_database_errors: False
+[0m09:55:15.153194 [info ] [MainThread]:   retry_all: False
+[0m09:55:15.155273 [info ] [MainThread]:   insecure_mode: False
+[0m09:55:15.156906 [info ] [MainThread]:   reuse_connections: True
+[0m09:55:15.156906 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m09:55:15.158969 [info ] [MainThread]:   platform_detection_timeout_seconds: 0.0
+[0m09:55:15.160143 [info ] [MainThread]: Registered adapter: snowflake=1.11.4
+[0m09:55:15.750984 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m09:55:15.869034 [debug] [MainThread]: Using snowflake connection "debug"
+[0m09:55:15.870560 [debug] [MainThread]: On debug: select 1 as id
+[0m09:55:15.870560 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m09:55:17.515948 [debug] [MainThread]: SQL status: SUCCESS 1 in 1.646 seconds
+[0m09:55:17.515948 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m09:55:17.515948 [info ] [MainThread]: [31m1 check failed:[0m
+[0m09:55:17.515948 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Apprender\project\snowflake-ecommerce-analytics\dbt_project.yml> not found
+
+[0m09:55:17.515948 [debug] [MainThread]: Command `dbt debug` failed at 09:55:17.515948 after 3.22 seconds
+[0m09:55:17.515948 [debug] [MainThread]: Connection 'debug' was left open.
+[0m09:55:17.515948 [debug] [MainThread]: On debug: Close
+[0m09:55:18.068156 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AAFF4F5490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AA81BD5050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AA81C1EF10>]}
+[0m09:55:18.068156 [debug] [MainThread]: Flushing usage events
+[0m09:55:19.192860 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:56:18.919990 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002441CF08FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002441CFD2590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002441CFD1B90>]}
+
+
+============================== 09:56:18.924100 | 74cb857d-d19c-4e22-9496-087bc16985bd ==============================
+[0m09:56:18.924100 [info ] [MainThread]: Running with dbt=1.11.8
+[0m09:56:18.926107 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\nikhi\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m09:56:18.928120 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Apprender\project\snowflake-ecommerce-analytics\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m09:56:18.930130 [debug] [MainThread]: Command `dbt run` failed at 09:56:18.930130 after 0.10 seconds
+[0m09:56:18.930130 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002441BBE8590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000244150F8210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002441CF08850>]}
+[0m09:56:18.930130 [debug] [MainThread]: Flushing usage events
+[0m09:56:20.054987 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:57:15.947602 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BC7092CC90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BC7092C2D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BC7092C350>]}
+
+
+============================== 09:57:15.952935 | e872df83-ca64-4b41-b682-9345fabac9df ==============================
+[0m09:57:15.952935 [info ] [MainThread]: Running with dbt=1.11.8
+[0m09:57:15.954231 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\nikhi\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt debug --connection', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m09:57:15.981795 [info ] [MainThread]: dbt version: 1.11.8
+[0m09:57:15.981795 [info ] [MainThread]: python version: 3.11.14
+[0m09:57:15.981795 [info ] [MainThread]: python path: C:\Apprender\project\snowflake-ecommerce-analytics\.venv\Scripts\python.exe
+[0m09:57:15.991554 [info ] [MainThread]: os info: Windows-10-10.0.26200-SP0
+[0m09:57:16.746558 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m09:57:16.746558 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m09:57:16.746558 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m09:57:16.823241 [info ] [MainThread]: Using profiles dir at C:\Users\nikhi\.dbt
+[0m09:57:16.823241 [info ] [MainThread]: Using profiles.yml file at C:\Users\nikhi\.dbt\profiles.yml
+[0m09:57:16.829309 [info ] [MainThread]: Using dbt_project.yml file at C:\Apprender\project\snowflake-ecommerce-analytics\dbt_project.yml
+[0m09:57:16.830839 [info ] [MainThread]: adapter type: snowflake
+[0m09:57:16.830839 [info ] [MainThread]: adapter version: 1.11.4
+[0m09:57:16.830839 [info ] [MainThread]: Skipping steps before connection verification
+[0m09:57:16.830839 [info ] [MainThread]: Connection:
+[0m09:57:16.830839 [info ] [MainThread]:   account: BBBLQXE-MAB47127
+[0m09:57:16.835357 [info ] [MainThread]:   user: NIKHIL01
+[0m09:57:16.835357 [info ] [MainThread]:   database: RETAIL_DB
+[0m09:57:16.836367 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m09:57:16.837368 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m09:57:16.838367 [info ] [MainThread]:   schema: DBT_SCHEMA
+[0m09:57:16.839507 [info ] [MainThread]:   authenticator: None
+[0m09:57:16.839507 [info ] [MainThread]:   oauth_client_id: None
+[0m09:57:16.840515 [info ] [MainThread]:   query_tag: None
+[0m09:57:16.841520 [info ] [MainThread]:   client_session_keep_alive: False
+[0m09:57:16.842514 [info ] [MainThread]:   host: None
+[0m09:57:16.842514 [info ] [MainThread]:   port: None
+[0m09:57:16.843486 [info ] [MainThread]:   proxy_host: None
+[0m09:57:16.845967 [info ] [MainThread]:   proxy_port: None
+[0m09:57:16.846975 [info ] [MainThread]:   protocol: None
+[0m09:57:16.847972 [info ] [MainThread]:   connect_retries: 1
+[0m09:57:16.848973 [info ] [MainThread]:   connect_timeout: None
+[0m09:57:16.849977 [info ] [MainThread]:   retry_on_database_errors: False
+[0m09:57:16.850783 [info ] [MainThread]:   retry_all: False
+[0m09:57:16.850783 [info ] [MainThread]:   insecure_mode: False
+[0m09:57:16.851924 [info ] [MainThread]:   reuse_connections: True
+[0m09:57:16.852922 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m09:57:16.853924 [info ] [MainThread]:   platform_detection_timeout_seconds: 0.0
+[0m09:57:16.854723 [info ] [MainThread]: Registered adapter: snowflake=1.11.4
+[0m09:57:17.430814 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m09:57:17.544341 [debug] [MainThread]: Using snowflake connection "debug"
+[0m09:57:17.544341 [debug] [MainThread]: On debug: select 1 as id
+[0m09:57:17.544341 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m09:57:20.934633 [debug] [MainThread]: SQL status: SUCCESS 1 in 3.384 seconds
+[0m09:57:20.935634 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m09:57:20.936636 [info ] [MainThread]: [31m1 check failed:[0m
+[0m09:57:20.936636 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Apprender\project\snowflake-ecommerce-analytics\dbt_project.yml> not found
+
+[0m09:57:20.938663 [debug] [MainThread]: Command `dbt debug` failed at 09:57:20.938663 after 5.08 seconds
+[0m09:57:20.939674 [debug] [MainThread]: Connection 'debug' was left open.
+[0m09:57:20.939674 [debug] [MainThread]: On debug: Close
+[0m09:57:21.496958 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BC70E72290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BC6F6D5910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BC70A29E10>]}
+[0m09:57:21.496958 [debug] [MainThread]: Flushing usage events
+[0m09:57:22.573615 [debug] [MainThread]: An error was encountered while trying to flush usage events
