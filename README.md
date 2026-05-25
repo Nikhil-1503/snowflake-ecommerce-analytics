@@ -10,7 +10,7 @@ The goal is to transform raw data into a well-structured analytics layer and ena
 <img src="./images/Architecture.png" alt="Project Architecture">
 
 ### 🏗️ Dashboard Preview
-<img src="./images/Olist_Dashboard.gif" alt="Demo">
+<img src="./images/Olist_Dashboard.gif" alt="Demo" width="720">
 
 ### 🧰 Tech Stack
 - Data Warehouse: Snowflake
