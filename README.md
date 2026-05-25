@@ -49,18 +49,12 @@ The goal is to transform raw data into a well-structured analytics layer and ena
   - agg_daily_sales → Sales trends
   - agg_customer_rfm → RFM segmentation
 
-### 📈 Key Business KPIs
+### 📈 Key Dashboard Pages
 
-- 💰 Total Revenue
-- 📦 Total Orders
-- 👥 Active Customers
-- ⭐ Average Review Score
-- 🚚 Delivery Time Performance
-- 🔁 Repeat Customer Rate
-- 🏆 Top Selling Products
-- ⚠️ Low Rated Products
-- 🧮 RFM Analysis
-
+- 📊 Executive Summary
+- 👥 Customer Insights
+- 📦 Product Performance
+- 🚚 Delivery Performance
 
 <!-- 📊 Power BI Dashboard
 
