@@ -24,15 +24,21 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   snowflake_dbt_project:
     # Config indicated by + and applies to all files under models/example/
-    # Bronze Layer (Raw ingestion)
+    # -------------------------
+    # BRONZE LAYER
+    # -------------------------
     bronze:
-      +materialized: table
       +schema: bronze
-    # Silver Layer (Cleaned + transformed)
+      +materialized: table
+      +tags: ['bronze']
+    # -------------------------
+    # SILVER LAYER
+    # -------------------------
     silver:
       +schema: silver
       # Default (for most tables)
       +materialized: table
+      +tags: ['silver']
 
       # Override for specific models
       silver_orders:
@@ -43,6 +49,23 @@ models:
 
       silver_customers:
         +materialized: view
+    # -------------------------
+    # GOLD LAYER
+    # -------------------------
+    gold:
+      +schema: gold
+
+      facts:
+        +materialized: incremental
+        +tags: ['facts']
+
+      dims:
+        +materialized: table
+        +tags: ['dims']
+
+      marts:
+        +materialized: table
+        +tags: ['bi']
 
 # -------------------------
 # SNAPSHOTS CONFIG

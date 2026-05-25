@@ -8,7 +8,8 @@
         check_cols=[
             'customer_unique_id',
             'customer_city',
-            'customer_state'
+            'customer_state',
+            'customer_zip_code_prefix'
         ],
         invalidate_hard_deletes=True
     )
@@ -19,6 +20,7 @@ select
     customer_unique_id,
     customer_city,
     customer_state,
+    customer_zip_code_prefix,
     insert_dt
 from {{ ref('bronze_customers') }}
 

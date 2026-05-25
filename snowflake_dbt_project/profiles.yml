@@ -3,7 +3,7 @@ snowflake_dbt_project:
     dev:
       account: BBBLQXE-MAB47127
       database: RETAIL_DB
-      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
+      password: ${SNOWFLAKE_PASSWORD}
       role: ACCOUNTADMIN
       schema: DBT_SCHEMA
       threads: 1
