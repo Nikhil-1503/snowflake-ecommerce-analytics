@@ -37,11 +37,15 @@ The goal is to transform raw data into a well-structured analytics layer and ena
 ### ⭐ Key Models
 
 - 📌 Fact Tables
-  - fact_orders → Order-level transactional data
-  - fact_reviews → Customer review metrics
+  - fact_orders
+  - fact_reviews
+  - fact_order_items
 - 📌 Dimension Tables
-  - dim_customers → Customer attributes
-  - dim_products → Product details
+  - dim_customers
+  - dim_products
+  - dim_sellers
+  - dim_geolocation
+  - dim_dates
 - 📌 Aggregations (Marts)
   - agg_customer_metrics → Customer behavior insights
   - agg_product_performance → Product KPIs
